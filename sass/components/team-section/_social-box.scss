@@ -1,0 +1,8 @@
+.social-box{
+display: flex;
+justify-content: space-between;
+}
+.social-global__list:hover, .social-global__list:focus{
+    fill: white;
+    background-color: var(--background-color);
+}
