@@ -9,12 +9,11 @@
     height: 294px;
     background: rgba(33, 150, 243, 0.9);
 
+&__text{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 63px 24px;
 }
-.overlay__text{
-
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-padding: 63px 24px;
 }

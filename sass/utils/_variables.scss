@@ -1,9 +1,4 @@
-// $primary-text-color: #212121;
-// $secondary-text-color: #757575;
-// $white-color: #FFFFFF;
-// $background-color:#2196F3;
-// $background2-color: #2F303A;
-// $background3-color:#F5F4FA;
+
 :root{
 --pimary-text-color: #212121;
 --secondary-text-color:#757575;
@@ -39,35 +34,3 @@ img{
     height: auto;
 }
 
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.social-global__list{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    display: flex;
-    border: 1px transparent;
-    width: 44px;
-    height: 44px;
-    align-items: center;
-    border-radius: 50%;
-    justify-content: center;
-    fill: #AFB1B8;
-    background: rgba(255, 255, 255, 0.1);
-    
-}
-
-.social-global__logo{
-    
-    width: 20px;
-    height: 20px;
-}

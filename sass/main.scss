@@ -1,6 +1,5 @@
-@import "./variables";
+@import './utils/variables';
 @import "./components/header/header";
-@import './components/header/logo-header';
 @import './components/header/header-navigate';
 @import './components/header/header-contacts';
 @import './components/hero/hero';
@@ -20,3 +19,4 @@
 @import './components/portfolio/portfolio-filter';
 @import './components/portfolio/portfolio-poster';
 @import './components/portfolio/overlay';
+@import './components/global';

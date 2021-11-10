@@ -1,19 +1,19 @@
 .box-licence{
 display: inline-block;
-}
-.box-licence__form{
+
+&__form{
 display: flex;
 align-items: center;
 justify-content: center;
 }
-.box-licence__checkbox{
+&__checkbox{
     visibility: hidden;
 }
-.box-licence input{
+& input{
     width: 16px;
     height: 15px;
 }
-.box-licence__custom{
+&__custom{
     position: relative;
 margin-right: 9px;
 border: 2px solid;
@@ -27,21 +27,21 @@ border-radius: 4px;
 background-repeat: no-repeat;
 }
 
-.box-licence input:checked + .box-licence__custom{
+& input:checked + &__custom{
     background-color: var(--background-color);
 }
-.box-licence__text{
+&__text{
     font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
-.box-licence__agreements{
+&__agreements{
     color: var(--background-color);
     text-decoration: underline;
 }
-.box-licence__button{
+&__button{
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
@@ -58,4 +58,5 @@ height: 50px;
 background: #188CE8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+}
 }
